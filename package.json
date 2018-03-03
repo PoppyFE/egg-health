@@ -1,6 +1,6 @@
 {
   "name": "egg-health",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "",
   "eggPlugin": {
     "name": "helth"
@@ -34,7 +34,8 @@
     "lint": "eslint .",
     "ci": "egg-bin pkgfiles --check && npm run lint && npm run cov",
     "pkgfiles": "egg-bin pkgfiles",
-    "autod": "autod"
+    "autod": "autod",
+    "publish": "npm publish --registry https://registry.npmjs.org"
   },
   "files": [
     "app.js",
