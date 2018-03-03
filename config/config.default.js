@@ -1,10 +1,10 @@
 'use strict';
 
 /**
- * egg-helth default config
- * @member Config#helth
+ * egg-health default config
+ * @member Config#health
  * @property {String} SOME_KEY - some description
  */
-exports.helth = {
+exports.health = {
 
 };
